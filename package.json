@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
     "start": "next start",
-    "test": "add"
+    "test": "react-scripts test --testResultsProcessor=\"jest-junit\""
     
   },
   "dependencies": {

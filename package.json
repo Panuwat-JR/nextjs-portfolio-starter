@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start",
-    "test": "echo \"No tests configured\" && exit 0"
+    "start": "next start"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
